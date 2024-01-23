@@ -1,0 +1,47 @@
+[
+  {
+    "PolicyRef": "01777824",
+    "Description": "Crime",
+    "Currency": "USD",
+    "PlanAdq": 999.99,
+    "GrossComponent": 999.99,
+    "GrossNetComponent": 999.99,
+    "ExposureComponent": 999.99,
+    "DeductibleComponent": 999.99,
+    "TCComponent": 999.99,
+    "LayerNumber": 1,
+    "Limit": 900000000.0,
+    "Excess": 0.0,
+    "TechAdq": 1.3674797374207381
+  },
+  {
+    "PolicyRef": "01777824",
+    "Description": "PI",
+    "Currency": "USD",
+    "PlanAdq": 999.99,
+    "GrossComponent": 999.99,
+    "GrossNetComponent": 999.99,
+    "ExposureComponent": 999.99,
+    "DeductibleComponent": 999.99,
+    "TCComponent": 999.99,
+    "LayerNumber": 1,
+    "Limit": 900000000.0,
+    "Excess": 0.0,
+    "TechAdq": 22.71904955060132
+  },
+  {
+    "PolicyRef": "01777824",
+    "Description": "D&amp;O",
+    "Currency": "USD",
+    "PlanAdq": 999.99,
+    "GrossComponent": 999.99,
+    "GrossNetComponent": 999.99,
+    "ExposureComponent": 999.99,
+    "DeductibleComponent": 999.99,
+    "TCComponent": 999.99,
+    "LayerNumber": 1,
+    "Limit": 6000.0,
+    "Excess": 0.0,
+    "TechAdq": 1949.0185400054427
+  }
+]

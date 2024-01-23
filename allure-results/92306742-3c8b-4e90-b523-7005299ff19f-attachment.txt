@@ -1,0 +1,4 @@
+name = api 
+ msg = <= page.screenshot succeeded 
+ severity = info 
+ args = 

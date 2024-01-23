@@ -1,0 +1,130 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\shane.mcclean\\Desktop\\Playwright_TestRunner-Send\\playwright.config.ts",
+    "rootDir": "C:/Users/shane.mcclean/Desktop/Playwright_TestRunner-Send",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "C:\\Users\\shane.mcclean\\Desktop\\Playwright_TestRunner-Send\\node_modules\\experimental-allure-playwright\\dist\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/shane.mcclean/Desktop/Playwright_TestRunner-Send/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/shane.mcclean/Desktop/Playwright_TestRunner-Send",
+        "testIgnore": [],
+        "testMatch": [
+          "waitForAlert.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "waits\\waitForAlert.test.ts",
+      "file": "waits/waitForAlert.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Wait for an Alert",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 7506,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Alert message:  Finally I'm here, just to say Hi :)\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "steps": [
+                    {
+                      "title": "Goto page",
+                      "duration": 1232
+                    },
+                    {
+                      "title": "Accept the alert",
+                      "duration": 5601
+                    }
+                  ],
+                  "startTime": "2024-01-16T16:02:59.417Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\shane.mcclean\\Desktop\\Playwright_TestRunner-Send\\test-results\\waits-waitForAlert-Wait-for-an-Alert\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dc38b441f9947948c4c1-2d01af9c49b86e50e923",
+          "file": "waits/waitForAlert.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-01-16T16:02:58.956Z",
+    "duration": 8609.637999999999,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
